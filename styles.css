@@ -1,0 +1,46 @@
+body{
+    
+    background-color: #A9A9A9;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+div{
+    padding: 5px;
+}
+
+.main-container{
+    background-color: #E6E6FA;
+    width: 80%;  /* Ajusta a largura do container */
+    max-width: 600px; /* Define um limite máximo para a largura */
+    height: auto;  /* Deixa a altura ajustável ao conteúdo */
+    margin: 0 auto;  
+    padding: 20px;
+     border-radius: 5px;
+     text-align: center;
+}
+
+.banner-container{
+    text-align: center;
+}
+
+.information-container{
+    text-align: center;
+}
+
+
+img {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    text-align: center;
+  
+  }
+  img:hover {
+    box-shadow: 1px 1px 2px 1px rgba(26, 2, 24, 0.5);
+  }
